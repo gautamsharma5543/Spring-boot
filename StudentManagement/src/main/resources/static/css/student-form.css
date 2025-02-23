@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: gray;
+        }
+        .form-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background: #007BFF;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background: #0056b3;
+        }
+        div {
+    text-align: center; /* Centers the link inside the div */
+    margin-top: 20px;   /* Adds space above the div */
+}
+
+a {
+    text-decoration: none; /* Removes underline from the link */
+    color: #ffffff;        /* Sets the text color (white) */
+    background-color: #007bff; /* Sets the background color (blue) */
+    padding: 10px 20px;    /* Adds padding to the link */
+    border-radius: 5px;    /* Rounds the corners of the link */
+    font-size: 16px;       /* Sets the font size */
+    font-weight: bold;     /* Makes the text bold */
+    display: inline-block; /* Ensures padding and other styles are applied */
+    transition: background-color 0.3s ease; /* Adds hover effect */
+}
+
+a:hover {
+    background-color: #0056b3; /* Changes background color on hover */
+}
+        
+      
+  
